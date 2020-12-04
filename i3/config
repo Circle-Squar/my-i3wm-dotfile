@@ -10,8 +10,8 @@ gaps inner 12
 gaps outer 0
 
 # Bind a ScreenShot
-
-bindsym --release Print exec sh ~/script/screenshot.sh
+#(Not test , cause my computer broken)
+bindsym --release $mod+Shift+Print exec "maim -s | xclip -selection clipboard -t image/png"
 
 # startup
 exec variety
