@@ -16,6 +16,14 @@ Enjoy : )
 
 
 
+### Screenshot
+
+---
+
+![Screenshot1](https://github.com/Swivi/my-i3wm-dotfile/raw/main/Screenshot/ScreenShot-20201225_232024.png)
+
+
+
 ### What do you need to install && Environment
 
 ---
@@ -54,11 +62,11 @@ Optional
 
 I use a blue theme 
 
-You may need a blue color wallpapper
+You may need a blue or purple theme wallpapper
 
 You can change it by your self 
 
-#### PS : I don't make my polybar to show some font, I'm learning to make it show, and make it beautiful
+#### PS : I don't make my polybar show some font, I'm learning to make it show, and make it beautiful
 
  
 
@@ -72,53 +80,6 @@ Clone it in to your computer, and cp it to ~/.config. Make sure your environment
 
 I removed "j k l i" key's support.
 
-mostly default operation method , $mod use Super key
+You can learn it in i3 dot-files.
 
-
-
-$mod+Shift+q 	---	Quit this window
-
-$mod + Tab 	---	Switcher
-
-$mod + d		---	Start menu
-
-$mod + Return (Enter)	---	alacritty
-
-
-
-$mod + h	---	horizontal orientation
-
-$mod + v	---	vertical orientation
-
-
-
-$mod + r	---	resize 
-
-use arrow key
-
-
-
-$mod + f	---	fullscreen mode
-
-$mod + s / w / e 	---	change container layout
-
-$mod + Shift + Space	---	floating toggle
-
-$mod + Space	---	Change focus parent
-
-$mod + 1...0	---	virtual desktop 1 to 10
-
-
-
-$mod + Shift + c	---	reload
-
-$mod + Shift + r	---	restart
-
-$mod + Shift + e	---	exit
-
-
-
-
-
-
-
+mostly default operation method , $mod was Super key
