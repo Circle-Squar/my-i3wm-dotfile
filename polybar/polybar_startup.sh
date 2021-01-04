@@ -6,5 +6,5 @@ do
 done
 
 echo "---" | tee -a /tmp/polybar.log
-polybar example & /tmp/polybar.log 2>&1 &
+polybar Up & /tmp/polybar.log 2>&1 &
 echo "Polybar launched"

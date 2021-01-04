@@ -12,16 +12,6 @@ You can use it easily to create your i3wm theme
 
 Enjoy : )
 
-(This dotfile may have some bugs about polybar)
-
-
-
-### Screenshot
-
----
-
-![Screenshot1](https://github.com/Swivi/my-i3wm-dotfile/raw/main/Screenshot/ScreenShot-20201225_232024.png)
-
 
 
 ### What do you need to install && Environment
@@ -43,18 +33,16 @@ This dotfile need :
 *   feh (WallPapper)
 *   picom (It used called compton, to make windows transparent)
 *   fcitx (IME)
-*   maim (ScreenShot)
-*   i3lock-fancy [ My computer was broken, so It isn't have dotfile for it now : (    ]
+*   scrot (ScreenShot)
+*   i3lock-fancy
+*   mpd 
 
 Optional
 
-*   ranger (Terminal File manager)
+* ranger
 
-*   (next will be my note for next update)
+  
 
-*   libmpdlient   mpd
-
-    
 
 ### About beautify
 
@@ -66,9 +54,7 @@ You may need a blue or purple theme wallpapper
 
 You can change it by your self 
 
-#### PS : I don't make my polybar show some font, I'm learning to make it show, and make it beautiful
 
- 
 
 ### How to use
 
