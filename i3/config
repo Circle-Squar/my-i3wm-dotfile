@@ -3,7 +3,7 @@ set $mod Mod4
 
 # Setint window
 new_window none
-new_float normal
+new_float none
 hide_edge_borders both
 
 gaps inner 12
