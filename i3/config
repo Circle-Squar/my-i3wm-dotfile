@@ -12,7 +12,7 @@ gaps outer 0
 # Bind a ScreenShot
 
 bindsym --release Print exec sh ~/.config/scripts/screenshot.sh
-exec sh ~/.config/scripts/Wacom.sh
+exec sh ~/.config/start-up-scripts/start.sh
 
 # startup
 exec variety
