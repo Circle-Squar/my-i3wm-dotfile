@@ -56,6 +56,18 @@ You can change it by your self
 
 
 
+### About start-up scripts
+
+---
+
+You can save your scripts in ~/.config/start-up-scripts/scripts/
+
+I have a wacom tablet , it's module was "One by wacom" , It has a 16:10 's area to draw but my screen was 16:9 .
+
+So I made a scripts to set-up it.
+
+
+
 ### How to use
 
 ---
