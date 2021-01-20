@@ -1,11 +1,9 @@
 #!/bin/bash
 
 a=0
-
-cd scripts
-for i in *
+for i in ~/.config/start-up-scripts/*
 do
   echo "[INFO] Start-Up script $a : $i"
-  source $i
+  sh $i &
   let a+=1
 done
