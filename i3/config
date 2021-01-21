@@ -15,7 +15,7 @@ bindsym --release Print exec sh ~/.config/scripts/screenshot.sh
 
 # startup
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -c -b
-exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/BackGround
+exec_always --no-startup-id feh --randomize --bg-scale ~/Pictures/WallPapers/*
 exec_always --no-startup-id sh ~/.config/polybar/polybar_startup.sh
 exec_always --no-startup-id fcitx5
 
@@ -26,7 +26,7 @@ font pango:monospace 8
 
 # lock
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
-bindsym $mod+L exec --no-startup-id i3lock-fancy
+bindsym $mod+L exec --no-startup-id i3lock-fancy 
 
 # network
 exec --no-startup-id nm-applet
