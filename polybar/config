@@ -17,10 +17,10 @@
 ;==========================================================
 
 [colors]
-background = #7000D0F0
-background-alt = #7050D0F0
-fireground = #70222200
-fireground-alt = #70555500
+background = #101010ef
+background-alt = #101010ef
+fireground = #101010ef
+fireground-alt = #101010ef
 
 primary = #ffb52a
 secondary = #e60053
@@ -40,7 +40,7 @@ line-color = #f00
 
 border-size = 12
 border-bottom = 0
-border-color = #00000000
+border-color = #000000FF
 
 padding-left = 5
 padding-right = 5
@@ -55,9 +55,9 @@ font-3 = "icomoon-extended-ultra:size=10:antialias=false;1"
 font-4 = "Ubuntu Nerd Font:size=10:antialias=false;1"
 font-5 = FontAwesome:size=10;1
 
-modules-left = i3 xbacklight volume mpd
+modules-left = i3 xbacklight volume mpd filesystem 
 modules-center = date
-modules-right = filesystem  memory cpu wlan eth battery temperature 
+modules-right = memory cpu wlan eth battery temperature 
 
 tray-position = right
 tray-padding = 2
@@ -87,13 +87,17 @@ label-indicator-underline = ${colors.secondary}
 
 [module/filesystem]
 type = internal/fs
-interval = 25
+interval = 1
 
 mount-0 = /
+mount-1 = /mnt/sda1
+mount-2 = /mnt/sdb1
+mount-3 = /mnt/sdb2
+mount-4 = /mnt/sdc1
+mount-5 = /mnt/mmcblk0p1 
 
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+label-mounted =  %mountpoint% : %percentage_used%%
+label-unmounted = ""
 
 [module/i3]
 type = internal/i3
@@ -129,7 +133,7 @@ type = internal/mpd
 format-online = <toggle> <label-song> <icon-next>
 format-offline = <label-offline>
 format-offline-foreground = #66
-label-offline = mpd is off
+label-offline = mpd is off  
 
 label-song-maxlen = 20
 label-song-font = 8
@@ -266,6 +270,7 @@ format-connected-prefix = " "
 format-connected-prefix-foreground = #b6a49b
 label-connected = %local_ip%  :%upspeed:5%  :%downspeed:5%
 format-disconnected = <label-disconnected>
+format-connected-underline = #55FF55
 
 label-disconnected = "NO WIFI"
 format-disconnected-prefix = ""
@@ -278,8 +283,8 @@ type = internal/network
 interface = enp4s0f1
 interval = 3.0
 
-format-connected-underline = #55aa55
-format-connected-prefix = "=>口"
+format-connected-underline = #55FF55
+format-connected-prefix = ""
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%  :%upspeed:5%  :%downspeed:5%
 
@@ -327,7 +332,11 @@ animation-charging-2 = 
 animation-charging-2-foreground = #aaff77
 animation-charging-1-foreground = #fba922
 animation-charging-0-foreground = #ff5555
-animation-charging-framerate = 750
+animation-charging-framerate = 450
+
+format-full-underline = #55FF55
+format-charging-underline = #FFFF35
+format-discharging-underline = #3535FF 
 
 [module/temperature]
 type = internal/temperature
@@ -335,9 +344,9 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = #f50a4d
+format-underline = #55FF55
 format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
+format-warn-underline = #FFAA11
 
 label = %temperature-c%
 label-warn = %temperature-c%
