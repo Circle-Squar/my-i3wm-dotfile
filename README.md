@@ -50,11 +50,15 @@ Optional
 
 ---
 
-I use a blue theme 
+I upload some wallpaper 
 
-You may need a blue or purple theme wallpapper
+one of this Wallpapers was from My minecraft server
+
+the another from bing
 
 You can change it by your self 
+
+<font color=lightgreen>#I will make a bing wallpaper loader#</font> 
 
 
 
