@@ -36,6 +36,8 @@ This dotfile need :
 *   scrot (ScreenShot)
 *   i3lock-fancy
 *   mpd 
+*   wget(To download Bing Wallpaper)
+*   curl(To download Bing Wallpaper)
 *   
 *   awesome-font
 
