@@ -78,7 +78,7 @@ So I made a scripts to set-up it.
 
 ---
 
-Clone it in to your computer, and cp it to ~/.config. Make sure your environment correct.
+Clone it in to your computer, and run install.sh to install this dotfile.  Make sure your environment correct.
 
 ##### About operation method
 
