@@ -36,6 +36,8 @@ This dotfile need :
 *   scrot (ScreenShot)
 *   i3lock-fancy
 *   mpd 
+*   
+*   awesome-font
 
 Optional
 
