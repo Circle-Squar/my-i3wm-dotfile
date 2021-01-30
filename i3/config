@@ -19,7 +19,7 @@ exec_always --no-startup-id feh --randomize --bg-scale ~/Pictures/WallPapers/*
 exec_always --no-startup-id sh ~/.config/polybar/polybar_startup.sh
 exec_always --no-startup-id fcitx5
 
-exec_always --no-startup-id sh ~/.config/scripts/startup.sh
+exec --no-startup-id sh ~/.config/scripts/startup.sh
 
 # Window Title
 font pango:monospace 8
