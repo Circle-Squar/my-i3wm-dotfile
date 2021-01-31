@@ -26,11 +26,11 @@ do
     fileName=$(date "+%Y-%m-%d-")$(echo $URL_PART |cut -d = -f 2 |cut -d '&' -f 1)
     echo $fileName
 
-    wget -O ~/Pictures/WallPapers/$fileName.jpg $FULL_PATH
+    wget -O ~/Pictures/WallPapers/$fileName $FULL_PATH
 
     rm bingurl.txt
 
-    feh --bg-scale ~/Pictures/WallPapers/$fileName.jpg
+    feh --bg-scale ~/Pictures/WallPapers/$fileName
   
     exit
   fi
