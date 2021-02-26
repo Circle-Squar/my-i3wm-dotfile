@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Make Sure Have a Networking
 # sleep 1m

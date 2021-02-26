@@ -56,11 +56,11 @@ I upload some wallpaper
 
 one of this Wallpapers was from My minecraft server
 
-the another from bing
+I uploaded a Bing Wallpaper Download sh Scripts 
+
+It's dependence wget feh sed 
 
 You can change it by your self 
-
-<font color=lightgreen>#I will make a bing wallpaper loader#</font> 
 
 
 
